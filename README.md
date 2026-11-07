@@ -6,7 +6,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Multi--stage-blue?logo=docker)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A **production-ready, fully automated CI/CD pipeline** built on AWS using Terraform, featuring containerized deployment with ECS Fargate, automated builds with CodePipeline, and a modern responsive web interface.
+A hands-on AWS DevOps portfolio project built with Terraform, featuring a containerized Node.js application, ECS Fargate deployment, automated builds with CodePipeline and CodeBuild, and a responsive web interface. The author confirms that the project was deployed and tested in AWS; this portfolio implementation should not be assumed to be production-ready without a separate production-readiness review.
 
 ![application](screenshots/project-homepage.png)
 
@@ -27,7 +27,7 @@ A **production-ready, fully automated CI/CD pipeline** built on AWS using Terraf
 
 ## Overview
 
-This project demonstrates a **complete AWS DevOps pipeline** that automatically builds, tests, and deploys a Node.js application to ECS Fargate whenever code is pushed to GitHub. Everything is provisioned using Infrastructure as Code (Terraform) following AWS best practices.
+This project demonstrates an AWS DevOps workflow for building and deploying a Node.js application to ECS Fargate. Terraform defines the infrastructure, while CodePipeline and CodeBuild handle the build and deployment stages. The author confirms that the project was deployed and tested in AWS.
 
 ### Live Demo
 - **Application URL**: Provided after `terraform apply` completes
